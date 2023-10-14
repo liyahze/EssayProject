@@ -1,0 +1,186 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Young Serif', serif;
+}
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(
+        rgba(248, 137, 19, 0.5),
+        rgba(241, 86, 13, 0.5)
+    ), url(images/utk.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+nav {
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-links{
+    flex: 1;
+    text-align: right;
+}
+.nav-links ul li{
+    list-style: none; /* takes away bullet point */
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+.nav-links ul li a{
+    color: #fff;
+    text-decoration: none; /* removes underline */
+    font-size: 13px;
+}
+.nav-links ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #070707;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+.nav-links ul li:hover::after{
+    width: 100%;
+}
+.text-box{
+    width: 90%;
+    color: #ffffff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.text-box h1{
+    font-size: 50px;
+}
+.text-box p{
+    margin: 10px 0 40px;
+    font-size: 12px;
+    color: #d9d6d6;
+}
+.text-box divider{
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+.essay{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+p {
+    color: #616161;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: 350; /* amount of bold*/
+    line-height: 22px;
+    padding: 50px;
+   /* background-color:rgba(224, 119, 8, 0.5); */
+
+}
+.image-col {
+    background:rgba(248, 137, 19, 0.5); 
+    border-radius: 5px;
+    margin-bottom: 20%;
+    padding: 5px 5px;
+    box-sizing: border-box;
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+
+}
+.row::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+.header2 {
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(
+        rgba(248, 137, 19, 0.5),
+        rgba(241, 86, 13, 0.5)
+    ), url(images/school.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+
+}
+.text-box2{
+    width: 100%;
+    color: #ffffff;
+    position: relative;
+   
+    text-align: center;
+}
+.text-box2 h1{
+    font-size: 50px;
+}
+.text-box2 p{
+    font-size: 20px;
+    color: #000000;
+    
+}
+.header3 {
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(
+        rgba(248, 137, 19, 0.5),
+        rgba(241, 86, 13, 0.5)
+    ), url(images/religion.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+
+}
+.text-box3{
+    width: 100%;
+    color: #000000;
+    position: relative;
+   
+    text-align: center;
+}
+.text-box3 h1{
+    font-size: 50px;
+}
+.text-box3 p{
+    font-size: 20px;
+    color: #ffffff;
+    
+}
+.header4 {
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(
+        rgba(248, 137, 19, 0.5),
+        rgba(241, 86, 13, 0.5)
+    ), url(images/utk2.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+
+}
+.text-box4{
+    width: 100%;
+    color: #000000;
+    position: relative;
+   
+    text-align: center;
+}
+.text-box4 h1{
+    font-size: 50px;
+}
+.text-box4 p{
+    padding-bottom: 50px;
+    font-size: 20px;
+    color: #ffffff;
+    
+}
+
+
